@@ -14,6 +14,6 @@ end pc_adder;
 
 architecture BEHAV of pc_adder is
 begin
-     output <= input + X"00000001";
+    output <= input + X"00000001";
 end BEHAV;
 
