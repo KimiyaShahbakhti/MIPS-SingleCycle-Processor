@@ -48,7 +48,6 @@ begin
             if (memory_write_ctrl = '1') then
                 data_mem(to_integer(unsigned(address))) <= write_data;
             end if;
-
     end process;
 end BEHAV;
 
